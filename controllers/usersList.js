@@ -1,4 +1,5 @@
 import query from '../database.js';
+import xss from 'xss';
 
 export default (req, res) => {
     query(
