@@ -1,4 +1,4 @@
-import { v4 } from 'uuid';
+import {v4} from 'uuid';
 import bcrypt from 'bcrypt';
 import query from '../database.js';
 import xss from 'xss';
